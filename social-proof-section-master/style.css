@@ -65,17 +65,34 @@ body {
         width: 25rem;
     }
 
+    .rate-one {
+        transform: translateX(-10%);
+    }
+
+    .rate-three {
+        transform: translateX(10%);
+    }
+
     .stars {
         margin-right: 2rem;
     }
 
     .comments {
+        margin: 2rem;
         grid-column: 1 / -1;
         display: flex;
     }
 
     .comment {
         margin: 1rem;
+    }
+
+    .comment-one {
+        transform: translateY(-10%);
+    }
+
+    .comment-three {
+        transform: translateY(10%);
     }
 
 }
